@@ -1,4 +1,6 @@
 # TheBusyDev's official website (beware of imitations)
 
-This repo is used to deploy my résumé at https://thebusydev.github.io/ 🤓. \
-The full project is hosted on [this repo](https://github.com/TheBusyDev/resume/).
+This repo is used to deploy my résumé. Visit https://thebusydev.github.io/
+for further info 🤓. \
+The project is completely open-source and hosted on
+[this repo](https://github.com/TheBusyDev/resume/).
