@@ -44,13 +44,14 @@ body {
 }
 
 /* My photo :) */
-.profile-photo {
+.photo-container {
     float: right;
     margin-right: 0.5cm;
     width: 105px;
     height: 105px;
     border-radius: 50%;
     border: 3px solid var(--accent-color);
+    text-align: center;
 }
 
 /* Name */
@@ -63,23 +64,17 @@ body {
     letter-spacing: -0.5px;
 }
 
-#easter-egg-checkbox {
-    display: none;
-}
-
 .easter-egg-message {
     display: none;
 }
 
-/* #easter-egg-checkbox:checked ~ .easter-egg-message,
-#easter-egg-checkbox:hover ~ .easter-egg-message {
+.photo-container:hover ~ .easter-egg-message {
     display: block;
 }
 
-#easter-egg-checkbox:checked ~ .name,
-#easter-egg-checkbox:hover ~ .name {
+.photo-container:hover ~ .name {
     display: none;
-} */
+}
 
 /* Contact info container */
 .contact-info {
